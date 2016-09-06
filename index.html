@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+   	<meta charset="utf-8">
+    <title>Brushed</title>
+    <meta name='viewport' content='width=device-width'>
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900"
+     rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type='text/javascript' src="supersized/slideshow/js/jquery.easing.min.js"></script>
+
+    <!-- Supersized slideshow -->
+    <script type='text/javascript' src="supersized/slideshow/js/supersized.3.2.7.js"></script>
+    <link rel="stylesheet" type="text/css" href="supersized/slideshow/css/supersized.css">
+    
+    <!-- Shutter theme for supersized -->
+    <script type='text/javascript' src="supersized/slideshow/theme/supersized.shutter.js"></script>
+	  <link rel="stylesheet" type="text/css" href="supersized/slideshow/theme/supersized.shutter.css">
+    
+    <!-- Isotope -->
+    <script type='text/javascript' src="js/isotope.pkgd.min.js"></script>
+    
+    <!-- Fancybox -->
+    <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js"></script>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="css/brushed.css" type="text/css">
+    <script type='text/javascript' src="js/main.js"></script>
+    <script type='text/javascript' src="js/jQuery-transform-plugin.js"></script>
+
+  </head>
+
+  <body>
+    
+    <div id="wrapper">
+
+
+      <!-- Supersized плагин и контрол панель слайдера -->
+
+  		<div id="supersized-container" data-name='home'>
+
+        <div class="supersized-overlay">
+          <span>Brushed</span>
+        </div>
+              
+        <div class="supersized-controls">
+    			<a id="prevslide">&#xf053;</a>
+    			<a id="nextslide">&#xf054;</a>
+          <ul id="slide-list"></ul>
+          <a id='next-section'>&#xf078;</a>
+        </div>
+
+  		</div>
+
+
+      <main>
+        
+        <!-- Главная панель навигации -->
+             
+        <div class="navigation-container"> 
+
+      		<nav id="main-navigation" class='clearfix'>
+
+            <div class="logo">
+              <a href="/"></a>
+            </div>
+            <div class="open-btn"></div>
+      			<ul>
+              <li><a href="/" data-name='home'>home</a></li>
+              <li><a href="/" data-name='gallery'>our work</a></li>
+              <li><a href="/" data-name='crew'>about us</a></li>
+              <li><a href="/" data-name='feedback'>contact</a></li>
+            </ul>
+
+      		</nav>
+          
+        </div> 
+
+
+        <!-- Галерея работ -->
+
+        <section id='works' data-name='gallery'>
+          <div class="container clearfix">
+
+            <header class="section-header">
+              <h1>Our Work</h1>
+              <span>See Also Great Stuff on <a href='/'>Dribbble</a>.</span>
+            </header>
+            
+            <section class="works-gallery">
+
+              <aside class="filter">
+                <ul>
+                  <li><h2>type of work</h2></li>
+                  <li><a href='/' data-type='all' class='active'>All</a></li>
+                  <li><a href='/' data-type='design'>Design</a></li>
+                  <li><a href='/' data-type='photo'>Photography</a></li>
+                  <li><a href='/' data-type='video'>Video</a></li>
+                </ul>
+              </aside>
+              
+              <section class="works-previews">
+                <figure data-type='design'>
+                  <a class='group' rel='group1' href="img/works-01.jpg" title="Image 1">
+                    <img src="img/works-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='design'>
+                  <a class='group' rel='group1' href="img/works-02.jpg" title="Image 2">
+                    <img src="img/works-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='photo'>
+                  <a class='group' rel='group1' href="img/works-03.jpg" title="Image 3">
+                    <img src="img/works-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='photo'>
+                  <a class='group' rel='group1' href="img/works-04.jpg" title="Image 4">
+                    <img src="img/works-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='photo'>
+                  <a class='group' rel='group1' href="img/works-05.jpg" title="Image 5">
+                    <img src="img/works-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='design'>
+                  <a class='group' rel='group1' href="img/works-06.jpg" title="Image 6">
+                    <img src="img/works-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='design'>
+                  <a class='group' rel='group1' href="img/works-07.jpg" title="Image 7">
+                    <img src="img/works-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum asperiores amet, labore soluta veniam esse.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='video'>
+                  <a class='group' rel='group2' href="http://vimeo.com/50834315" title="Lorem ipsum dolor sit amet">
+                    <img src="img/works-08.jpg" alt="Lorem ipsum dolor sit amet.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+                <figure data-type='video'>
+                  <a class='group' rel='group2' href="http://vimeo.com/51460511" title="Lorem ipsum dolor sit amet">
+                    <img src="img/works-09.jpg" alt="Lorem ipsum dolor sit amet.">
+                    <div class="overlay"></div>
+                    <span></span>
+                  </a>
+                </figure>
+              </section>
+
+            </section>
+
+          </div> 
+        </section>
+
+
+        <!-- Команда проекта -->
+
+        <section id='crew' data-name='crew'>
+          <div class="container">
+            
+            <header class="section-header">
+              <h1>About Us</h1>
+              <span>The most important thing to us is building products people love.</span>
+            </header>
+
+            <section class="workers clearfix">
+
+              <div class="worker-profile">
+                <figure class="worker-photo">
+                  <img src="img/worker-1.png" alt="">
+                  <div class="overlay"></div>
+                  <span>cto/founder</span>
+                </figure>
+                <h4>John Doe</h4>
+                <p>Our work was redesigning the outdated user interface of Rotix, a puzzle game. We used simple,
+                 <a href="/">bright</a> colors and a clean approach to produce a stunning, pixel-perfect UI.</p>
+                <div class="social-links">
+                  <a href="/"><i class="fa fa-twitter"></i></a>
+                  <a href="/"><i class="fa fa-linkedin"></i></a>
+                  <a href="/"><i class="fa fa-dribbble"></i></a>
+                </div>
+              </div>
+
+              <div class="worker-profile">
+                <figure class="worker-photo">
+                  <img src="img/worker-2.png" alt="">
+                  <div class="overlay"></div>
+                  <span>creative director</span>
+                </figure>
+                <h4>Jane Helf</h4>
+                <p>Our work was redesigning the outdated user interface of Rotix, a puzzle game. We used simple,
+                 <a href="/">bright</a> colors and a clean approach to produce a stunning, pixel-perfect UI.</p>
+                <div class="social-links">
+                  <a href="/"><i class="fa fa-twitter"></i></a>
+                  <a href="/"><i class="fa fa-linkedin"></i></a>
+                  <a href="/"><i class="fa fa-dribbble"></i></a>
+                </div>
+              </div>
+
+              <div class="worker-profile">
+                <figure class="worker-photo">
+                  <img src="img/worker-3.png" alt="">
+                  <div class="overlay"></div>
+                  <span>lead designer</span>
+                </figure>
+                <h4>Joshua Insanus</h4>
+                <p>Our work was redesigning the outdated user interface of Rotix, a puzzle game. We used simple,
+                 <a href="/">bright</a> colors and a clean approach to produce a stunning, pixel-perfect UI.</p>
+                <div class="social-links">
+                  <a href="/"><i class="fa fa-twitter"></i></a>
+                  <a href="/"><i class="fa fa-linkedin"></i></a>
+                  <a href="/"><i class="fa fa-dribbble"></i></a>
+                </div>
+              </div>
+
+            </section>
+
+          </div>
+        </section>
+
+        
+        <!-- Форма фидбека -->
+
+        <section id="feedback" data-name='feedback'>
+          <div class="container clearfix">
+            
+            <header class="section-header">
+              <h1>Get in Touch</h1>
+              <span>We’re currently accepting new client projects. Think we might help? We'd love to hear from you.</span>
+            </header>
+
+            <form action="" id="feedback-form">
+              <input type="text" name="fullname" placeholder='Full Name'>
+              <input type="text" name="email" placeholder='Email Adress'>
+              <textarea name="additional" id="" rows="18" placeholder='Your Message'></textarea>
+              <input type="submit" value='Submit'>
+            </form>
+
+            <adise class="contact-details">    
+              <h5>contact details</h5>
+              <p><a href='/'>info@example.com</a></p>
+              <p>(916) 123-4567</p>
+              <p>Creativedash<br /> 
+                5701 Lonetree Blvd. 105<br />
+                Rocklin, CA 95765</p>
+            </adise>
+
+          </div>
+        </section>
+
+        
+        <!-- Лента Твиттера -->
+
+        <section id="twitter-feed">
+          <div class="container">
+          
+            <span class='twitter-post'>Some random twitter post text here and some links
+              <a href="/">example.com</a>
+              <a href="/" class='twitter-tags'>#sometag</a>
+              <span class="post-date">about a day ago</span>
+            </span>
+
+           <footer class="footer-logo"><a href="/"><i class="fa fa-twitter"></i></a></footer>
+
+          </div>
+        </section>
+
+        
+        <!-- Линки на социальные сети/проекты -->
+
+        <section id="social-links">
+          <div class="container">
+
+            <ul class='social-links-list'>
+              <li><a href="/"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="/"><i class="fa fa-vimeo"></i></a></li>
+              <li><a href="/"><i class="fa fa-behance"></i></a></li>
+              <li><a href="/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="/"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="/"><i class="fa fa-leanpub"></i></a></li>
+              <li><a href="/"><i class="fa fa-deviantart"></i></a></li>
+            </ul>
+
+          </div>
+        </section>
+
+      </main> 
+
+      <!-- Футер -->
+
+      <footer id="main-footer">
+        <div class="container">
+          
+          <span>© 2013 BRUSHED. <a href='/'>BRUSHED TEMPLATE</a> by <a href='/'>ALESSIO ATZENI</a></span>
+          
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>    
+
